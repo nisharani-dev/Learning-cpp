@@ -1,0 +1,114 @@
+//VARIABLES IN C++
+#include<iostream>
+using namespace std;
+int main(){
+    int x;//declaration
+    x=5;//initialization
+    int y;
+    y=10;
+    cout<<x+y;
+}
+
+#include<iostream>
+using namespace std;
+int main(){
+    int x=5,y=7;//declaration and initialization
+    cout<<x+y;
+}
+
+//overwriting variable value
+#include<iostream>
+using namespace std;
+int main(){
+    int x=5;
+    cout<<x<<endl;
+    x=7;
+    cout<<x<<endl;
+}
+
+#include <iostream>
+using namespace std;
+int main(){
+    int x=5;
+    cout<<x<<endl;
+    x=x+7;
+    cout<<x<<endl;
+}
+
+#include <iostream>
+using namespace std;
+int main(){
+    int x=5;
+    cout<<x<<endl;
+    x+=7;
+}
+
+//Arithme<tic Operators
+#include <iostream>
+using namespace std;
+int main(){
+    int x=5,y=7;
+    cout<<y/x; //it will give integer division result
+}
+
+//to get decimal result we use float or double
+//its for storing real numbers
+
+//post increment and pre increment
+#include <iostream>
+using namespace std;
+int main(){
+    int x=5;
+    cout<<x++<<endl;
+    cout<<x--;
+}
+
+//Calculating area of circle
+#include <iostream>
+using namespace std;
+int main(){
+    float r=4.3,a=3.14*r*r;
+    cout<<"Area of circle:";
+    cout<<a;
+}
+
+//Variables naming rules
+// Variables can start from a from an alphabet or underscore or$
+
+// Taking input from user
+#include <iostream>
+using namespace std;
+int main(){
+    int x;
+    cin>>x;
+    cout<<x*x;
+}
+
+#include <iostream>
+using namespace std;
+int main(){
+    int x,y;
+    cout<<"enter first number:";
+    cin>>x;
+    cout<<"enter second number:";
+    cin>>y;
+    cout<<"sum is:"<<x+y;
+     
+}
+
+//modulus operator gives the remainder
+//some important points:
+// a%b if a<b then result will be a
+// a%(-b) gives a%b
+// -a%b gives -(a%b)
+
+//Typecasting
+#include <iostream>
+using namespace std;
+int main(){
+    int x;
+    cin>>x;
+    float y=(float)x;
+    cout<<y/2;
+}
+
